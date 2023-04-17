@@ -1,0 +1,38 @@
+:root{
+--rich-black-fogra-29-1: hsl(215, 31%, 14%);
+--rich-black-fogra-29-2: hsl(230, 14%, 8%);
+--rich-black-fogra-39: hsl(158, 29%, 5%);
+--granite-gray: hsl(0, 0%, 40%);
+--go-green_50: hsla(145, 63%, 42%, 0.5);
+--go-green_8: hsla(145, 63%, 42%, 0.08);
+--go-green_5: hsla(145, 63%, 42%, 0.05);
+--light-gray: hsl(0, 0%, 80%);
+--mint-cream: hsl(160, 100%, 98%);
+--cultured: hsl(0, 0%, 93%);
+--go-green: hsl(145, 63%, 42%);
+--white: hsl(0, 0%, 100%);
+--jet: hsl(0, 0%, 18%);
+
+/* typography */
+--ff-poppins: 'Poppins', sans-serif;
+--ff-cuprum: 'Cuprum', sans-serif;
+
+--fs-1: 4.5rem;
+--fs-2: 3.6rem;
+--fs-3: 3.5rem;
+--fs-4: 3.2rem;
+--fs-5: 2.5rem;
+--fs-6: 2.4rem;
+--fs-7: 2.2rem;
+--fs-8: 2rem;
+--fs-9: 1.8rem;
+--fs-10: 1.5rem;
+--fs-11: 1.4rem;
+--fs-12: 1.3rem;
+
+--fw-600: 600;
+--fw-500: 500;
+
+/* spacing */
+--section-padding: 80px;
+}
