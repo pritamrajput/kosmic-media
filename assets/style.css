@@ -125,3 +125,33 @@ body{
 ::-webkit-scrollbar-track{background-color: hsl(0, 0%, 98%);}
 ::-webkit-scrollbar-thumb{background-color: hsl(0, 0%, 80%);}
 ::-webkit-scrollbar-thumb:hover{background-color: hsl(0, 0%, 70%);}
+
+/* ---------------*\
+    #REUSED STYLE
+\* -------------- */
+
+.container{
+    padding-inline:15px ;
+}
+
+/* ---------------*\
+      #HEADER
+\* -------------- */
+.navbar,
+.header .btn-outline{
+    display: none;
+}
+
+.header{
+    padding-block: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+.header.active{
+    background-color: var(--white);
+    box-shadow: var(--shadow-2);
+}
