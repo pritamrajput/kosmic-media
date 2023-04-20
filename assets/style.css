@@ -215,3 +215,22 @@ body{
 .navbar-link{
     padding-block: 10px;
 }
+
+.navbar-link:is(:hover, :focus){
+    color: var(--go-green);
+}
+
+.overlay{
+    position: fixed;
+    inset: 0;
+    background-color: hsl(0, 0%, 100%, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    transform: var(--transition-1);
+    z-index: 3;
+}
+
+.overlay.active{
+    visibility: visible;
+    opacity: 1;
+}
