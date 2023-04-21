@@ -114,7 +114,6 @@ body{
     color: var(--granite-gray);
     font-style: 1.6rem;
     line-height: 1.7;
-    height: 300vh;
 }
 
 :focus-visible{
@@ -132,6 +131,28 @@ body{
 
 .container{
     padding-inline:15px ;
+}
+
+.section{ padding-block: var(--section-padding); }
+
+.has-before,
+.has-after{
+    position: relative;
+    z-index: 1;
+}
+
+.has-before::before,
+.has-after::after{
+    content: "";
+    position: absolute;
+}
+
+.h1,
+.h2,
+.h3,
+.h2-sm{
+    color: var(--rich-black-fogra-29-1);
+    font-family: var(--ff-cuprum);
 }
 
 /* ---------------*\
